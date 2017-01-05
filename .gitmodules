@@ -1,3 +1,4 @@
 [submodule "MyProject/-f"]
 	path = MyProject/-f
 	url = https://github.com/zsheikh-systango/myframework.git
+	ignore = dirty

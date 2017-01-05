@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D2D35290D354C947CF599C0B9703FFD407C614DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B1919BF71E4D67828FD51F9AAA2D673D67776DC3" : 9223372036854775807,
+    "D2D35290D354C947CF599C0B9703FFD407C614DA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35CF4012-86CB-4227-A608-2195AE46675C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B1919BF71E4D67828FD51F9AAA2D673D67776DC3" : "myproject\/MyProject\/-f\/",
+    "D2D35290D354C947CF599C0B9703FFD407C614DA" : "myproject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyProject\/MyProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zsheikh-systango\/myframework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1919BF71E4D67828FD51F9AAA2D673D67776DC3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zsheikh-systango\/myproject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D2D35290D354C947CF599C0B9703FFD407C614DA"
+    }
+  ]
+}

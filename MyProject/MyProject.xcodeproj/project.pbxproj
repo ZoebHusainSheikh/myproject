@@ -13,7 +13,40 @@
 		EF79981F1E1E300D00AF4CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF79981D1E1E300D00AF4CE7 /* Main.storyboard */; };
 		EF7998211E1E300D00AF4CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7998201E1E300D00AF4CE7 /* Assets.xcassets */; };
 		EF7998241E1E300D00AF4CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7998221E1E300D00AF4CE7 /* LaunchScreen.storyboard */; };
+		EF7998511E1E6DEA00AF4CE7 /* libMyFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF79984E1E1E6D7C00AF4CE7 /* libMyFramework.a */; };
+		EF7998521E1E6E0900AF4CE7 /* MyFrameworkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF7998501E1E6D7C00AF4CE7 /* MyFrameworkBundle.bundle */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF79984D1E1E6D7C00AF4CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7998481E1E6D7C00AF4CE7 /* MyFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF7997EC1E1E2BAB00AF4CE7;
+			remoteInfo = MyFramework;
+		};
+		EF79984F1E1E6D7C00AF4CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7998481E1E6D7C00AF4CE7 /* MyFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF7997FC1E1E2D7F00AF4CE7;
+			remoteInfo = MyFrameworkBundle;
+		};
+		EF7998531E1E6E1D00AF4CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7998481E1E6D7C00AF4CE7 /* MyFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7997EB1E1E2BAB00AF4CE7;
+			remoteInfo = MyFramework;
+		};
+		EF7998551E1E6E1D00AF4CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7998481E1E6D7C00AF4CE7 /* MyFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7997FB1E1E2D7F00AF4CE7;
+			remoteInfo = MyFrameworkBundle;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF7998111E1E300D00AF4CE7 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +59,7 @@
 		EF7998201E1E300D00AF4CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7998231E1E300D00AF4CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7998251E1E300D00AF4CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7998481E1E6D7C00AF4CE7 /* MyFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyFramework.xcodeproj; path = "-f/MyFramework/MyFramework.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7998511E1E6DEA00AF4CE7 /* libMyFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,7 @@
 		EF7998081E1E300D00AF4CE7 = {
 			isa = PBXGroup;
 			children = (
+				EF7998481E1E6D7C00AF4CE7 /* MyFramework.xcodeproj */,
 				EF7998131E1E300D00AF4CE7 /* MyProject */,
 				EF7998121E1E300D00AF4CE7 /* Products */,
 			);
@@ -79,6 +115,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EF7998491E1E6D7C00AF4CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF79984E1E1E6D7C00AF4CE7 /* libMyFramework.a */,
+				EF7998501E1E6D7C00AF4CE7 /* MyFrameworkBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,6 +138,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				EF7998541E1E6E1D00AF4CE7 /* PBXTargetDependency */,
+				EF7998561E1E6E1D00AF4CE7 /* PBXTargetDependency */,
 			);
 			name = MyProject;
 			productName = MyProject;
@@ -126,6 +173,12 @@
 			mainGroup = EF7998081E1E300D00AF4CE7;
 			productRefGroup = EF7998121E1E300D00AF4CE7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EF7998491E1E6D7C00AF4CE7 /* Products */;
+					ProjectRef = EF7998481E1E6D7C00AF4CE7 /* MyFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EF7998101E1E300D00AF4CE7 /* MyProject */,
@@ -133,11 +186,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		EF79984E1E1E6D7C00AF4CE7 /* libMyFramework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMyFramework.a;
+			remoteRef = EF79984D1E1E6D7C00AF4CE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF7998501E1E6D7C00AF4CE7 /* MyFrameworkBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MyFrameworkBundle.bundle;
+			remoteRef = EF79984F1E1E6D7C00AF4CE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		EF79980F1E1E300D00AF4CE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7998521E1E6E0900AF4CE7 /* MyFrameworkBundle.bundle in Resources */,
 				EF7998241E1E300D00AF4CE7 /* LaunchScreen.storyboard in Resources */,
 				EF7998211E1E300D00AF4CE7 /* Assets.xcassets in Resources */,
 				EF79981F1E1E300D00AF4CE7 /* Main.storyboard in Resources */,
@@ -158,6 +229,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7998541E1E6E1D00AF4CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyFramework;
+			targetProxy = EF7998531E1E6E1D00AF4CE7 /* PBXContainerItemProxy */;
+		};
+		EF7998561E1E6E1D00AF4CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyFrameworkBundle;
+			targetProxy = EF7998551E1E6E1D00AF4CE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF79981D1E1E300D00AF4CE7 /* Main.storyboard */ = {
@@ -272,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NTQL8DHG79;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				INFOPLIST_FILE = MyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.systango.MyProject;
@@ -284,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NTQL8DHG79;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				INFOPLIST_FILE = MyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.systango.MyProject;
@@ -310,6 +396,7 @@
 				EF79982A1E1E300D00AF4CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

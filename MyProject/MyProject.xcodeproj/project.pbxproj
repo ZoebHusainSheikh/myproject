@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7998161E1E300D00AF4CE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7998151E1E300D00AF4CE7 /* main.m */; };
+		EF7998191E1E300D00AF4CE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7998181E1E300D00AF4CE7 /* AppDelegate.m */; };
+		EF79981C1E1E300D00AF4CE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF79981B1E1E300D00AF4CE7 /* ViewController.m */; };
+		EF79981F1E1E300D00AF4CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF79981D1E1E300D00AF4CE7 /* Main.storyboard */; };
+		EF7998211E1E300D00AF4CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7998201E1E300D00AF4CE7 /* Assets.xcassets */; };
+		EF7998241E1E300D00AF4CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7998221E1E300D00AF4CE7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF7998111E1E300D00AF4CE7 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7998151E1E300D00AF4CE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7998171E1E300D00AF4CE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7998181E1E300D00AF4CE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF79981A1E1E300D00AF4CE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF79981B1E1E300D00AF4CE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF79981E1E1E300D00AF4CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7998201E1E300D00AF4CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7998231E1E300D00AF4CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7998251E1E300D00AF4CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF79980E1E1E300D00AF4CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7998081E1E300D00AF4CE7 = {
+			isa = PBXGroup;
+			children = (
+				EF7998131E1E300D00AF4CE7 /* MyProject */,
+				EF7998121E1E300D00AF4CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7998121E1E300D00AF4CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7998111E1E300D00AF4CE7 /* MyProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7998131E1E300D00AF4CE7 /* MyProject */ = {
+			isa = PBXGroup;
+			children = (
+				EF7998171E1E300D00AF4CE7 /* AppDelegate.h */,
+				EF7998181E1E300D00AF4CE7 /* AppDelegate.m */,
+				EF79981A1E1E300D00AF4CE7 /* ViewController.h */,
+				EF79981B1E1E300D00AF4CE7 /* ViewController.m */,
+				EF79981D1E1E300D00AF4CE7 /* Main.storyboard */,
+				EF7998201E1E300D00AF4CE7 /* Assets.xcassets */,
+				EF7998221E1E300D00AF4CE7 /* LaunchScreen.storyboard */,
+				EF7998251E1E300D00AF4CE7 /* Info.plist */,
+				EF7998141E1E300D00AF4CE7 /* Supporting Files */,
+			);
+			path = MyProject;
+			sourceTree = "<group>";
+		};
+		EF7998141E1E300D00AF4CE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7998151E1E300D00AF4CE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7998101E1E300D00AF4CE7 /* MyProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7998281E1E300D00AF4CE7 /* Build configuration list for PBXNativeTarget "MyProject" */;
+			buildPhases = (
+				EF79980D1E1E300D00AF4CE7 /* Sources */,
+				EF79980E1E1E300D00AF4CE7 /* Frameworks */,
+				EF79980F1E1E300D00AF4CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyProject;
+			productName = MyProject;
+			productReference = EF7998111E1E300D00AF4CE7 /* MyProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7998091E1E300D00AF4CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Systango;
+				TargetAttributes = {
+					EF7998101E1E300D00AF4CE7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NTQL8DHG79;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF79980C1E1E300D00AF4CE7 /* Build configuration list for PBXProject "MyProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7998081E1E300D00AF4CE7;
+			productRefGroup = EF7998121E1E300D00AF4CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7998101E1E300D00AF4CE7 /* MyProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF79980F1E1E300D00AF4CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7998241E1E300D00AF4CE7 /* LaunchScreen.storyboard in Resources */,
+				EF7998211E1E300D00AF4CE7 /* Assets.xcassets in Resources */,
+				EF79981F1E1E300D00AF4CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF79980D1E1E300D00AF4CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF79981C1E1E300D00AF4CE7 /* ViewController.m in Sources */,
+				EF7998191E1E300D00AF4CE7 /* AppDelegate.m in Sources */,
+				EF7998161E1E300D00AF4CE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF79981D1E1E300D00AF4CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF79981E1E1E300D00AF4CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7998221E1E300D00AF4CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7998231E1E300D00AF4CE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7998261E1E300D00AF4CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7998271E1E300D00AF4CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7998291E1E300D00AF4CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NTQL8DHG79;
+				INFOPLIST_FILE = MyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.systango.MyProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF79982A1E1E300D00AF4CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NTQL8DHG79;
+				INFOPLIST_FILE = MyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.systango.MyProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF79980C1E1E300D00AF4CE7 /* Build configuration list for PBXProject "MyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7998261E1E300D00AF4CE7 /* Debug */,
+				EF7998271E1E300D00AF4CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7998281E1E300D00AF4CE7 /* Build configuration list for PBXNativeTarget "MyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7998291E1E300D00AF4CE7 /* Debug */,
+				EF79982A1E1E300D00AF4CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7998091E1E300D00AF4CE7 /* Project object */;
+}
